@@ -114,8 +114,9 @@ To quit the game press Ctrl+C in the terminal.
 In order to run TF training, install additional dependencies
 (or alternatively use provided [Docker image](gfootball/doc/docker.md)):
 
+#version verändert!
 - Update PIP, so that tensorflow 1.15 is available: `python3 -m pip install --upgrade pip setuptools`
-- TensorFlow: `pip3 install tensorflow==1.15.*` or
+- TensorFlow: `pip3 install tensorflow==1.20.*` or
   `pip3 install tensorflow-gpu==1.15.*`, depending on whether you want CPU or
   GPU version;
 - Sonnet: `pip3 install dm-sonnet==1.*`;
